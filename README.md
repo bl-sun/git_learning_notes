@@ -31,4 +31,29 @@ $ git config --list # 列出所有git现在的配置
 1. 将尚未进行版本控制的本地目录转换为Git仓库；
 2. 从其他服务器**克隆**一个已存在的Git仓库；
 
+####### 本地目录创建
+
+```git-bash
+$ cd ~/my_project
+$ git init
+```
+
+####### 克隆远程仓库
+
+```git-bash
+$ # git <url> [new-forder-name]
+$ # 使用url克隆一个远程仓库，并指定本地名称
+$ git clone https://github.com/libgit2/libgit2 mylibgit
+```
+
+
+### 查看状态
+
+```git-bash
+$ git status
+$ # 显示简短状态
+$ git status -s
+$ git status --short
+```
+
 

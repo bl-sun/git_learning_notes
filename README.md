@@ -67,6 +67,10 @@ M  lib/simplegit.rb
 - ` M` 已修改未暂存
 - `MM` 修改后暂存，又修改了的
 
+### 提交更新
 
+```git-bash
+$ git commit
+```
 
 

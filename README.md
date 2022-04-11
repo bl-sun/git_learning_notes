@@ -54,6 +54,19 @@ $ git status
 $ # 显示简短状态
 $ git status -s
 $ git status --short
+ M README
+MM Rakefile
+A  lib/git.rb
+M  lib/simplegit.rb
+?? LICENSE.txt
 ```
+
+- `??` 未追踪的文件
+- `A ` 新添加到暂存区的文件
+- `M ` 已修改且已暂存
+- ` M` 已修改未暂存
+- `MM` 修改后暂存，又修改了的
+
+
 
 

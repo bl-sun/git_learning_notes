@@ -78,7 +78,11 @@ $ git commit
 ```
 
 
+## 分支
 
-## test
+### 创建分支
 
-这是一些测试文字
+```git-bash
+$ git branch testing # 创建testing分支
+$ git checkout testing # 切换到testing分支
+```
